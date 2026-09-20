@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Plus Jakarta Sans", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    letter-spacing: -0.012em;
+    background-color: #f8fafc;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, .font-heading {
+    font-family: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+    letter-spacing: -0.022em;
+    color: #0f172a;
+  }
+
+  code, pre, .font-mono {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  }
+}
+
+/* KaTeX mathematical typography */
+.katex {
+  font-size: 1.05em;
+  text-rendering: auto;
+  color: #4338ca;
+}
+
+.katex-display {
+  margin: 0.85em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5em 0;
+}
+
+.katex-html {
+  user-select: all;
+}
+
+/* Modern Document Container Styling */
+.prose-academic {
+  font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.68;
+  color: #334155;
+}
+
+/* High-Contrast Mermaid Diagram Typography & Crisp Vector Rendering */
+.academic-markdown-renderer svg {
+  max-width: 100% !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.academic-markdown-renderer svg text {
+  font-family: "Inter", "Plus Jakarta Sans", system-ui, -apple-system, sans-serif !important;
+  font-weight: 600 !important;
+  fill: #0f172a !important;
+  letter-spacing: -0.01em !important;
+}
+
+.academic-markdown-renderer .mindmap-node text,
+.academic-markdown-renderer .node text,
+.academic-markdown-renderer .edgeLabel text,
+.academic-markdown-renderer .labelText {
+  fill: #0f172a !important;
+  font-size: 13.5px !important;
+}
+
+.academic-markdown-renderer .mindmap-node circle,
+.academic-markdown-renderer .mindmap-node rect,
+.academic-markdown-renderer .mindmap-node path {
+  stroke-width: 2px !important;
+}

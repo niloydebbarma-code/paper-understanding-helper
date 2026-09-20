@@ -1,0 +1,6 @@
+{
+  "name": "The Agentic Research Reviewer",
+  "description": "Adversarial, claim-by-claim deep paper analysis tool that interrogates research papers, maps evidence, flags missing data, and adapts to 8 user research roles powered by Amazon Bedrock.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
